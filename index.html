@@ -14,7 +14,6 @@
 
     <title>Frontend Mentor | Intro component with sign up form</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -26,12 +25,22 @@
     </style>
 
     <link href="styles/mainstyles.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
+
+  <body id="signup-page">
     <div>
       <div>
-        <h1>Learn to code by watching others</h1>
+        <h1 id="main-header">Learn to code by watching others</h1>
       </div>
+
       <div>
         <p>
           See how experienced developers solve problems in real-time. Watching
@@ -51,16 +60,18 @@
         <input placeholder="Password" type="password" />
       </form>
 
-      <button>
-        CLAIM YOUR FREE TRIAL
-      </button>
+      <div>
+        <button>
+          CLAIM YOUR FREE TRIAL
+        </button>
+      </div>
 
       <div>
         By clicking the button, you are agreeing to our Terms and Services
       </div>
     </div>
 
-    <footer>
+    <footer id="attribution-footer" class="fixed-bottom">
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
