@@ -1,3 +1,8 @@
 body {
     background-image: url('../images//bg-intro-desktop.png');
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-header {
+    font-weight: 700;
 }
