@@ -7,6 +7,10 @@ body {
   font-weight: 700;
 }
 
+#body-intro {
+  text-align: left;
+}
+
 @media screen and (max-width: 36em) {
   body {
     background-image: url("../images/bg-intro-mobile.png");
@@ -14,5 +18,9 @@ body {
 
   #main-header {
     margin-top: 100px;
+  }
+
+  #body-intro-container {
+    text-align: center;
   }
 }
