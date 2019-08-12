@@ -11,4 +11,8 @@ body {
   body {
     background-image: url("../images/bg-intro-mobile.png");
   }
+
+  #main-header {
+    margin-top: 100px;
+  }
 }
