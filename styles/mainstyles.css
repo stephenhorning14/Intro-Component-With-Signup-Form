@@ -11,6 +11,12 @@ body {
   text-align: left;
 }
 
+.rounded-rectangle {
+  border-radius: 25px;
+  background: hsl(248, 32%, 49%);
+  padding: 20px;
+}
+
 @media screen and (max-width: 36em) {
   body {
     background-image: url("../images/bg-intro-mobile.png");
