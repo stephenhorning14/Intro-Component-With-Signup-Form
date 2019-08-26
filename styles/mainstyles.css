@@ -1,14 +1,18 @@
 body {
+  background-color: #FF7A7A !important;
   background-image: url("../images//bg-intro-desktop.png");
   font-family: "Poppins", sans-serif;
+  
 }
 
 #main-header {
   font-weight: 700;
+  color: #FEFEFE;
 }
 
 #body-intro {
   text-align: left;
+  color: #FEFEFE;
 }
 
 .rounded-rectangle {
@@ -16,6 +20,7 @@ body {
   border-radius: 5px;
   background: hsl(248, 32%, 49%);
   padding: 20px;
+  color: #FEFEFE;
 }
 
 @media screen and (max-width: 36em) {
